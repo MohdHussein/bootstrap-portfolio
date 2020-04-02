@@ -8,6 +8,12 @@ body {
 .navbar a {
 	color: #0D0000;
 }
+.navbar ul li a:hover {
+	color: darkgrey;
+}
+.clicked {
+	text-decoration: line-through;
+}
 .logo {
 	font-size: 30px;
 	font-weight: normal;
