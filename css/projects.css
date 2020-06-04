@@ -5,15 +5,6 @@ body {
 	background-color: #F2F2F2;
 	color: #C02044;
 }
-.navbar a {
-	color: #0D0000;
-}
-.navbar ul li a:hover {
-	color: darkgrey;
-}
-.clicked {
-	text-decoration: line-through;
-}
 .logo {
 	font-size: 30px;
 	font-weight: normal;
@@ -24,11 +15,20 @@ body {
 	font-weight: lighter;
 	transition: 0.3s;
 	transition-timing-function: ease-out;
-  }
-.logo:hover span{
+}
+.logo:hover span {
 	font-size: 20px;
 	transition: 0.5s;
 	transition-timing-function: ease-out;
+}
+.navbar a {
+	color: #0D0000;
+}
+.navbar ul li a:hover {
+	color: darkgrey;
+}
+.clicked {
+	text-decoration: line-through;
 }
 
 .container {
@@ -42,6 +42,9 @@ body {
 	margin-bottom: 30px;
 	background-color: #F2F2F2;
 	
+}
+.websiteImg {
+	height: 100%;
 }
 .card-body {
 	padding-bottom: 0;

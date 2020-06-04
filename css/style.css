@@ -13,7 +13,7 @@ body {
 	font-size: 0;	
 	transition: 0.3s;
 	transition-timing-function: ease-out;
-  }
+}
 .logo:hover span{
 	font-size: 20px;
 	transition: 0.5s;
@@ -22,14 +22,12 @@ body {
 .navbar a {
 	color: #0D0000;
 }
-
 .navbar ul li a:hover {
 	color: darkgrey;
 }
 .clicked {
 	text-decoration: line-through;
 }
-
 .jumbotron {
 	text-align: center;
 	display: grid;
@@ -54,7 +52,7 @@ body {
 	width: 100%;
 	justify-items: center;
 	justify-content: center;
-	grid-template-columns: 30px 30px 30px 30px;
+	grid-template-columns: 30px 30px 30px;
 	grid-gap: 30px;
 }
 .icons-social a {
